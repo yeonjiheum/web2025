@@ -4,6 +4,21 @@ HTML
 CSS
 JavaScript
 
+<body>
+  <p> 새로 고침해 보세요 </p>
+  <script>
+    function random(number){
+      return Math.floor(Math.random() * number);
+    }
+    function bgChange(){
+      const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+      document.body.style.backgroundColor = rndCol;
+    }
+    bgChange();
+    
+  </script>
+</body>
+
 <HTML>
   <HEAD>
     
